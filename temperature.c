@@ -3,9 +3,10 @@
 int main(void)
 {
     int  Fahrenheit;
-    printf("Fahrenheit:");
+    printf("Degree in Fahrenheit:");
     scanf("%d" , &Fahrenheit);
-    int Celsius;
-    printf("Celsius:");
-    scanf("%d" , &Celsius);
+
+    int Celsius = (Fahrenheit - 32)/1.8;
+    printf("%dF° = %dc° \n" , Fahrenheit, Celsius);
+
 }
