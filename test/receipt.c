@@ -19,7 +19,7 @@ int main(void)
     printf("**********************************\n");
 
     printf("Item        Quantity        Price\n");
-    printf("Cereal        2        $50.00\n");
+    printf("%s"        2        $50.00\n");
     printf("-----------------------------------\n");
     int total = price*quantity;
     printf ("total: %d \n", total);
