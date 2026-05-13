@@ -3,7 +3,7 @@
  void c_to_f(void);
  void f_to_c(void);
 
-int main (void){
+int main (void)
 
     int  user_response;
     printf("Temperature converter\n");
